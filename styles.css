@@ -2,19 +2,41 @@
   margin: 0;
   padding: 0;
 }
+
+/* appearance of list */
 .center-logo {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  font-size: 64px;
+  font-size: 80px;
   transform: translateY(200px);
 }
 .recipe-options {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  font-size: 48px;
+  font-size: 60px;
   list-style-type: none;
-  transform: translateY(200px);
+  transform: translateY(220px);
 }
-a:link {
+
+/* link styling */
+a {
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  transition-duration: 500ms;
+  transition-property: all;
+}
+a:link,
+a:visited {
   text-decoration: none;
+}
+a:hover {
+  color: black;
+  font-size: 70px;
+}
+
+li {
+  padding: 10px;
 }
