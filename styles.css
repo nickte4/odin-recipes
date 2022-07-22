@@ -11,6 +11,7 @@
   font-size: 80px;
   transform: translateY(200px);
 }
+
 .recipe-options {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -21,6 +22,7 @@
 }
 
 /* link styling */
+
 a {
   color: white;
   -webkit-text-stroke-width: 2px;
@@ -41,8 +43,46 @@ li {
   padding: 10px;
 }
 
-/* brenda's lasagna */
+/* recipe site styling*/
 
-/* potato rounds */
+.main-display {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.title {
+  text-align: center;
+  font-size: 64px;
+  transform: translateY(50px);
+}
+.picture {
+  width: 75%;
+  height: auto;
+  transform: translateY(75px) translateX(100px);
+}
+.subheading {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.desc {
+  transform: translateY(50px);
+}
+.desc-text {
+  font-size: 20px;
+  text-align: center;
+}
+.ingredients {
+  transform: translateY(50px);
+}
+.steps {
+  transform: translateY(50px);
+}
 
-/* avocado tacos */
+#home-link {
+  font-size: 120px;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
