@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.center-logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 64px;
+  transform: translateY(200px);
+}
+.recipe-options {
+  text-align: center;
+  font-size: 48px;
+  list-style-type: none;
+  transform: translateY(200px);
+}
+a:link {
+  text-decoration: none;
+}
