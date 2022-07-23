@@ -86,3 +86,6 @@ li {
   bottom: 50px;
   left: 50px;
 }
+#home-link.potato {
+  bottom: -65px;
+}
